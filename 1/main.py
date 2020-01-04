@@ -1,0 +1,9 @@
+i=0
+summa=0
+while(i<1000):
+    if(i%3==0):
+        summa=summa+i
+    elif(i%5==0):
+        summa=summa+i
+    i=i+1
+print(summa)
